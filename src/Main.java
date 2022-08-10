@@ -18,11 +18,12 @@ public class Main {
 
     public static void playRound() {
         roundNumber++;
-        medicHits();
+
         chooseMedic();
         chooseBossDefence();
         bossHits();
         heroesHit();
+        medicHits();
         printStatistics();
     }
 
